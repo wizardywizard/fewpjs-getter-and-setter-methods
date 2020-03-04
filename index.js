@@ -3,16 +3,16 @@ class Circle {
         this.radius = radius
     }
 
-    set diameter(dia){
-        this.diameter = dia
+    set diameter(diameter){
+        this.radius = diameter/2
     }
 
     get diameter(){
         return this.radius * 2
     }
 
-    set circumference(cir){
-        this.circumference = cir
+    set circumference(circumference){
+        this.diameter = circumference/Math.PI
     }
 
     get circumference(){
